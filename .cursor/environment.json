@@ -1,0 +1,11 @@
+{
+  "name": "Space-Thriving-Manual",
+  "install": "pip3 install --user --upgrade markdown",
+  "terminals": [
+    {
+      "name": "docs-preview",
+      "command": "python3 scripts/preview.py --serve --host 0.0.0.0 --port 8099"
+    }
+  ],
+  "ports": [8099]
+}
